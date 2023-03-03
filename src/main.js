@@ -74,6 +74,7 @@ const getPrices = async ({ portfolio }) => {
 
 const generateResponse = ({ amount, prices, allPricesUpdated, code }) => {
   const ratioTRY = code ? prices[code] : 1;
+  const now = new Date();
 
   return `
     <div style="font-size: 50; text-color: red; font-weight=bold; font-family: Tahoma; width: 50%; margin: 50 auto; text-align: center;">
