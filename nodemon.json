@@ -1,0 +1,7 @@
+{
+	"ignore": [
+		"modem/state.json",
+		"data/portfolio.json",
+		"data/prices.json"
+	]
+}
